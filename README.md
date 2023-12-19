@@ -6,19 +6,20 @@ This is a good exercise to put in practice some of the JS learnt during week fiv
 I have tried to be as descriptive as possible in all the messages provided to the user to ensure a good experience.
 
 
-You can access the page using the following link: https://ewolie49.github.io/
+You can access the page using the following link: https://ewolie49.github.io/Password-Generator-Emilio/
 
 
 ## Usage
 
 Once you choose "Generate password" a message asking you for the length of the password is displayed.
 
-To see the code working you will have to open the console within the inspector.
+If you introduce a number smaller than 8 or bigger than 128, you will receive a message asking to introduce the correct number.
+I have been unable to validate only numbers, so if user introduces letters for example, the code would still run.
 
     
-![Screenshot of the console](/starter/images/Screenshot%201.png)
+![Screenshot of the console](/images/Screenshot%201.png)
 
-![Screenshot of the console](/starter/images/Screenshot%202.png)
+![Screenshot of the console](/images/Screenshot%202.png)
 
 ## Credits
 There has been quite a lot of research done for this project as well as working collaborativelly with other students during class hours.
